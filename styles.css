@@ -1,0 +1,52 @@
+body{
+    margin: 0; padding: 0;
+  }
+  
+  main{
+    background-color: blue; height: 100vh;
+  }
+  
+  #navbar{
+    background-color: grey; position: fixed; width: 100%; border: 1px solid black; border-radius: 5px; height: 8.5%;
+  }
+  
+  ul{
+    list-style: none; display: flex; justify-content: end; 
+  }
+  
+  li{
+    padding-top: 10px;
+  }
+  
+  a{
+    text-decoration-line: none; padding-left: 50px; color: black; font-size: 20px; font-weight: bold; scroll-behavior: smooth;
+  }
+  #contact{
+    padding-right: 30px; 
+  }
+  
+  #name{
+    position: absolute; top: 50%; left: 700px; text-align: center;
+    
+  }
+  i{
+     position: absolute; top: 57.5%; left: 715px; text-align: center; font-weight: bold; font-size: 20px;
+  }
+  
+  #projects{
+    background-color: grey;
+  }
+  
+  .contact{
+    background-color: blue;
+  }
+  
+  @media only screen and (max-width: 100%) {
+    *{
+     max-width: 100%;
+    }
+  }
+  
+  .white{
+    color: white; text-align: center;
+  }
